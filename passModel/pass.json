@@ -1,0 +1,44 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.xyzdigital.development",
+  "serialNumber": "3",
+  "teamIdentifier": "V3T29AUKGC",
+  "organizationName": "Organization Name",
+  "logoText": "Logo Text",
+  "description": "Description",
+  "relevantDate": "2025-04-30T10:45-07:00",
+  "appLaunchURL": "spotify://track/4m1lfvUr5fPaZm4eMVPMk0",
+  "associatedStoreIdentifiers": [324684580],
+  "barcode": {
+    "message": "https://kaizen.place",
+    "format": "PKBarcodeFormatQR",
+    "messageEncoding": "iso-8859-1",
+    "altText": "Ticket #1234567890"
+  },
+  "eventTicket": {
+    "primaryFields": [
+      {
+        "key": "event-name",
+        "label": "Event",
+        "value": "Event Name"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "dateStyle": "PKDateStyleMedium",
+        "isRelative": true,
+        "key": "doors-open",
+        "label": "Doors open",
+        "timeStyle": "PKDateStyleShort",
+        "value": "2025-04-30T19:30-07:00"
+      }
+    ],
+    "headerFields": [
+      {
+        "key": "ticket-number",
+        "label": "Ticket",
+        "value": "1 of 1"
+      }
+    ]
+  }
+}

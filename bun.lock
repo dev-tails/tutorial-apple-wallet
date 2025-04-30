@@ -3,6 +3,9 @@
   "workspaces": {
     "": {
       "name": "tutorial-apple-wallet",
+      "dependencies": {
+        "@types/node": "^22.15.3",
+      },
       "devDependencies": {
         "@types/bun": "latest",
       },

@@ -1,0 +1,1 @@
+openssl x509 -in ./.credentials/wwdr.cer  -inform DER -outform PEM -out ./.credentials/wwdr.pem

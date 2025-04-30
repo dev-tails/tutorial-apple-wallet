@@ -1,0 +1,1 @@
+bun run createManifestFile.ts && ./signPkPass.sh && ./createPkPass.sh
