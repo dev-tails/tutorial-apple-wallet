@@ -1,8 +1,17 @@
 import { serve } from "bun";
+import homepage from "./index.html";
 
 serve({
   port: 8000,
-  fetch(request) {
-    return new Response("Hello from Bun!");
+  routes: {
+    "/": () => homepage,
+    "/ticket.pkpass": () => {
+      const ticket = Bun.file("./examples/ticket/pass.json");
+      return new Response(ticket, {
+        headers: {
+          "Content-Type": "application/vnd.apple.pkpass",
+        },
+      });
+    },
   },
 });
